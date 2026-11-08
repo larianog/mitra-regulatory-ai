@@ -4,7 +4,10 @@
 
 **Live demo:** <https://d1wj3tlr6ee301.cloudfront.net> (AWS: CloudFront, Fargate, RDS, Bedrock; redeployed on every push to `main`)
 
-Mitra is a regulatory-control platform for operational assets. It brings obligations, deadlines, supporting evidence, regulatory changes, and audit history into one workspace so each responsible person can act on what needs attention. Mining is the first vertical; the underlying asset model also supports healthcare, construction and other regulated operations.
+Mitra helps companies manage regulatory compliance for their operational assets. It brings obligations, deadlines, supporting evidence, regulatory updates, and audit history into one workspace so the person responsible for each obligation can see what needs attention and take action.
+AI-powered crawlers monitor Brazil’s *Diário Oficial da União* (DOU), the *Agência Nacional de Mineração* (ANM), and other regulatory sources for new publications. Large language models (LLMs) analyze those publications for patterns that indicate relevance to the company’s operations and flag new or amended regulations that may affect its assets.
+
+Mitra focuses on mining first. Its asset model also supports healthcare, construction, and other regulated operations.
 
 ![Mitra inbox: overdue items, missing data, upcoming deadlines, and the action that resolves each item](docs/img/torre_hoje.png)
 
